@@ -1,0 +1,29 @@
+{
+  "name": "task-notified",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch main.ts",
+    "start": "tsx main.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chewcw/task-notified.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chewcw/task-notified/issues"
+  },
+  "homepage": "https://github.com/chewcw/task-notified#readme",
+  "devDependencies": {
+    "@hono/node-server": "^1.19.8",
+    "@types/node": "^25.0.6",
+    "hono": "^4.11.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

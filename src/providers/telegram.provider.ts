@@ -1,4 +1,4 @@
-import { NotificationProvider } from "../services/notification.service.ts";
+import { NotificationProvider } from "../services/notification.service.js";
 
 export class TelegramProvider implements NotificationProvider {
   readonly name = "telegram";
