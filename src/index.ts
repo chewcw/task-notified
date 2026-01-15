@@ -35,6 +35,10 @@ app.post("/notify", async (c) => {
   }
 });
 
+app.get("/", async (c) => {
+  return c.text("Notification Service is running");
+})
+
 app.all("*", (c) => {
   return c.text("Not Found", 404);
 });
