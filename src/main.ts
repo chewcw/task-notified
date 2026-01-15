@@ -1,7 +1,7 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
-import { NotificationService } from "./src/services/notification.service.js";
-import { TelegramProvider } from "./src/providers/telegram.provider.js";
+import { NotificationService } from "./services/notification.service.js";
+import { TelegramProvider } from "./providers/telegram.provider.js";
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;

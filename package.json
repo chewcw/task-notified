@@ -4,8 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch main.ts",
-    "start": "tsx main.ts",
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
     "build": "tsc"
   },
   "repository": {
