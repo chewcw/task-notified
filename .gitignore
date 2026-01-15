@@ -4,3 +4,5 @@ cov/
 .vscode/
 node_modules/
 dist/
+.vercel
+.env*.local
